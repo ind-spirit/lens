@@ -1,0 +1,32 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+.main {
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 54vmin;
+    height: 80vmin;
+    background: center / contain no-repeat url(1.jpg);
+    /* border: 2px solid yellow; */
+}
+.lens {
+    width: 20vmin;
+    height: 20vmin;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    /* border: 4px red solid; */
+    left: 50%;
+    top: 10%;
+    filter:  invert(100%) hue-rotate(90deg);
+    background: no-repeat url(lens.jpg);
+    background-position: -15% -15%;
+}
