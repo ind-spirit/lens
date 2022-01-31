@@ -11,7 +11,7 @@ body {
 }
 .main {
     margin-left: 20%;
-    margin-top: 10%;
+/*     margin-top: 10%; */
     width: 470px;
     height: 705px;
     background: center / contain no-repeat url(1.jpg);
