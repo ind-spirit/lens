@@ -40,7 +40,7 @@ window.onload = () => {
 
         // let resultX = -relativeX + lens.offsetWidth / 2;
         // let resultY = -relativeY + lens.offsetHeight / 2;
-        let resultX = (-relativeX + lens.offsetWidth / 2) + 15.5;
+        let resultX = (-relativeX + lens.offsetWidth / 2);
         let resultY = (-relativeY + lens.offsetHeight / 2);
 
         // let percentageX = (relativeX / width) * 100;
